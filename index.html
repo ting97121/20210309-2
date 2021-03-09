@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ,shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>我太受歡迎了，該怎麼辦?</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript">
+      function MM_openBrWindow(theURL,winName,features) { //v2.0
+        window.open(theURL,winName,features);
+      }
+      function MM_preloadImages() { //v3.0
+        var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+          var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+          if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+      }
+      
+      function MM_swapImgRestore() { //v3.0
+        var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+      }
+      
+      function MM_findObj(n, d) { //v4.01
+        var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+          d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+        if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+        for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+        if(!x && d.getElementById) x=d.getElementById(n); return x;
+      }
+      
+      function MM_swapImage() { //v3.0
+        var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+         if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+      }
+      </script>
+      
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <ul class="navfixed">
+        <div id="apDiv1"><img src="logo.png" width="256" height="109" /></div>
+        <div style="float: right;">
+        <li ><a href="#page1">內容簡介</a></li>
+        <li ><a href="#page2">人物介紹</a></li>
+        <li ><a href="#page2" class="btn" onclick="MM_openBrWindow('w1.html','','width=820PX,height=550')">人氣投票</a></li>
+        <li ><a href="#page1">回到首頁</a></li>
+       </div>
+        </ul>
+    <section id="page1">
+            
+            <img src="0001.jpg" width="1920px" height="1080px"/>
+    </section>
+    <section id="page2">
+       <img src="0002.jpg" width="1920px" height="1080px"/>
+</section>
+   
+
+<section class="p7">
+    Best Dots Per Inch 1920*1080 Copyright (c) 2021 All Resved
+    </section>
+                
+  </body>
+</html>
